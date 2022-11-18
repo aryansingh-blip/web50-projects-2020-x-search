@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Google Images</title>
+    </head>
+    <body>
+        <div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="Index.html">Back to main search</a>
+                </li>
+            </ul>
+        </div>
+        <div class = "text-center mb-3">
+            <img src="google.jpg" class=img-fluid alt="Google web search" width="400" 
+            height="500">
+        </div>
+        <div class = "text-center">
+            <form action="https://google.com/search">
+                <div class="form-group col-lg-6 mx-auto">
+                    <input type="text" name="q" class="form-control form-rounded">
+                    <input type="hidden" name="tbm" value="isch">
+
+                </div>
+                <button type="submit" class="btn-primary btn-main">Image search</button>
+            </form>
+        </div>
+    </body>
+</html>
